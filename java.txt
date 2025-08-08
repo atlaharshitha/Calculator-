@@ -1,0 +1,30 @@
+riter("file.txt", trueimport java.io.*;
+import java.util.Scanner;
+
+public class NotesApp {
+    static final String FILE_NAME = "notes.txt";
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("\n--- Notes App ---");
+            System.out.println("1. Write Note");
+            System.out.println("2. Read Notes");
+            System.out.println("3. Exit");
+            System.out.print("Choose an option: ");
+            int choice = scanner.nextInt();
+            scanner.nextLine();  // consume newline
+
+            switch (choice) {
+                case 1 -> writeNote(scanner);
+                case 2 -> readNotes();
+                case 3 -> {
+                    System.out.println("Exit
+ try (FileReader fr = new FileReader("file.txt")) {
+    // use resource
+}
+ try {
+    // I/O operation
+} catch (IOException e) {
+    e.printStackTrace();
+}
